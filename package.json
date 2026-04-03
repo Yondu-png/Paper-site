@@ -1,7 +1,11 @@
 {
   "name": "ocd-paper",
   "private": true,
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
-    "vercel-build": "npm ci --prefix web && npm run build --prefix web"
+    "vercel-build": "npm ci --prefix web && npm run build --prefix web",
+    "test": "npm run test --prefix web"
   }
 }

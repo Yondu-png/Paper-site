@@ -21,7 +21,7 @@ export function DataTable({ spec }: Props) {
           <thead>
             <tr>
               {spec.columns.map((c) => (
-                <th key={c.key} title={c.role}>
+                <th key={c.key} scope="col" title={c.role}>
                   {c.header}
                 </th>
               ))}

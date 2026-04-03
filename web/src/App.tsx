@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useCallback, useState } from "react";
+import { useEffect, useMemo, useCallback, useState, useRef } from "react";
 import { Navigate, Route, Routes, useNavigate, useParams, useLocation } from "react-router-dom";
 import course from "../../content/course.json";
 import table1 from "../../content/tables/table1.json";
@@ -47,6 +47,12 @@ function CourseRoute() {
     return () => window.removeEventListener("keydown", onKey);
   }, [go]);
 
+  useEffect(() => {
+    if (!section) return;
+    const navLabel = labels[section.id] ?? section.title;
+    document.title = `${navLabel} · OCD × Behavioural addictions — study course`;
+  }, [section]);
+
   if (!section) {
     return <Navigate to={`/course/${list[0]?.id ?? "abstract"}`} replace />;
   }
@@ -72,10 +78,20 @@ function CourseRoute() {
 function ThemeToggle({ theme, onToggle }: { theme: "light" | "dark"; onToggle: () => void }) {
   return (
     <div className="segmented no-print" role="group" aria-label="Theme">
-      <button type="button" className={theme === "light" ? "active" : ""} onClick={() => theme !== "light" && onToggle()}>
+      <button
+        type="button"
+        className={theme === "light" ? "active" : ""}
+        aria-pressed={theme === "light"}
+        onClick={() => theme !== "light" && onToggle()}
+      >
         Day
       </button>
-      <button type="button" className={theme === "dark" ? "active" : ""} onClick={() => theme !== "dark" && onToggle()}>
+      <button
+        type="button"
+        className={theme === "dark" ? "active" : ""}
+        aria-pressed={theme === "dark"}
+        onClick={() => theme !== "dark" && onToggle()}
+      >
         Night
       </button>
     </div>
@@ -86,6 +102,8 @@ export default function App() {
   const list = useMemo(() => orderedSections(), []);
   const navigate = useNavigate();
   const location = useLocation();
+  const mainRef = useRef<HTMLElement>(null);
+  const skipInitialFocus = useRef(true);
   const [theme, setThemeState] = useState<"light" | "dark">("light");
 
   useEffect(() => {
@@ -107,9 +125,21 @@ export default function App() {
   const activeIndex = list.findIndex((s) => s.id === pathSectionId);
   const progress = activeIndex >= 0 ? ((activeIndex + 1) / list.length) * 100 : 8;
 
+  useEffect(() => {
+    if (!location.pathname.startsWith("/course/")) return;
+    if (skipInitialFocus.current) {
+      skipInitialFocus.current = false;
+      return;
+    }
+    mainRef.current?.focus({ preventScroll: true });
+  }, [location.pathname]);
+
   return (
     <div className="app-shell">
-      <aside className="rig-panel">
+      <a href="#main" className="skip-link">
+        Skip to main content
+      </a>
+      <aside className="rig-panel" aria-label="Course outline and settings">
         <div className="brand-block">
           <div className="brand-kicker">Guided walkthrough · non-clinical friendly</div>
           <p className="brand-title">OCD × Behavioural addictions — Rai et al. 2022</p>
@@ -133,6 +163,7 @@ export default function App() {
                 <button
                   type="button"
                   className={`nav-step${pathSectionId === s.id ? " active" : ""}`}
+                  aria-current={pathSectionId === s.id ? "page" : undefined}
                   onClick={() => navigate(`/course/${s.id}`)}
                 >
                   {labels[s.id] ?? s.title}
@@ -141,11 +172,18 @@ export default function App() {
             ))}
           </ul>
         </nav>
-        <div className="progress-track no-print" aria-hidden>
+        <div
+          className="progress-track no-print"
+          role="progressbar"
+          aria-valuenow={Math.round(Math.min(100, Math.max(0, progress)))}
+          aria-valuemin={0}
+          aria-valuemax={100}
+          aria-label="Progress through course sections"
+        >
           <div className="progress-fill" style={{ width: `${Math.min(100, Math.max(4, progress))}%` }} />
         </div>
       </aside>
-      <main className="main-panel" id="main" tabIndex={-1}>
+      <main ref={mainRef} className="main-panel" id="main" tabIndex={-1}>
         <Routes>
           <Route path="/" element={<Navigate to={`/course/${list[0]?.id ?? "abstract"}`} replace />} />
           <Route path="/course/:sectionId" element={<CourseRoute />} />
