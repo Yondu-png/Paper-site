@@ -1,0 +1,7 @@
+{
+  "name": "ocd-paper",
+  "private": true,
+  "scripts": {
+    "vercel-build": "npm ci --prefix web && npm run build --prefix web"
+  }
+}

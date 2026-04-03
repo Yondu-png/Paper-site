@@ -1,0 +1,60 @@
+{
+  "researchQuestionsToAnalyses": [
+    {
+      "rq": "Are yes/no positive screens more common in OCD than in healthy controls?",
+      "analysis": "Chi-square (chi-square count test) for each behaviour in Table 2, plus a check for \"at least one behavioural addiction\" overall.",
+      "why": "Chi-square works on counts. It checks whether the split of positive vs not-positive is different across the two groups. Small p-value means the gap is unlikely to be random."
+    },
+    {
+      "rq": "If we compare raw severity scores (not just yes/no), does OCD still differ from controls?",
+      "analysis": "Mann-Whitney U (rank comparison test) for Table 3 scores, because score shape was skewed (not bell-shaped).",
+      "why": "When scores are very uneven, a classic t-test can mislead. Mann-Whitney ranks everyone and asks whether one group usually sits higher."
+    },
+    {
+      "rq": "Inside the OCD group, does screen-positive vs screen-negative differ on age, sex, severity, impulsivity, and comorbidity?",
+      "analysis": "Chi-square for count rows and t-tests for continuous rows in Table 4.",
+      "why": "There are two OCD subgroups. Count data uses chi-square; number averages use t-tests where the authors used parametric testing."
+    },
+    {
+      "rq": "Do the three groups differ on BIS-11 total impulsivity?",
+      "analysis": "One-way ANOVA (three-group average comparison) with Figure 1 means ± SD and p < 0.001.",
+      "why": "ANOVA checks three groups in one test. Figure 1 shows a step-up pattern: HC, then OCD, then OCD+BA."
+    },
+    {
+      "rq": "Across all people together, do higher impulsivity scores move with higher behaviour severity scores?",
+      "analysis": "Bivariate correlation (move-together check) between BIS-11 total and each BA score, excluding very rare behaviours.",
+      "why": "Correlation asks whether two number scales rise and fall together. It shows association, not cause."
+    }
+  ],
+  "spssWorkflow": [
+    {
+      "step": "1. Check score shape first (normal vs skewed)",
+      "detail": "The paper says behavioural severity scores were skewed, so it used Mann-Whitney for OCD vs control in Table 3. It does not list every normality check detail. Learning point: check score shape before picking a test."
+    },
+    {
+      "step": "2. Build yes/no prevalence tables",
+      "detail": "In SPSS, use Crosstabs and request chi-square. Put group (OCD/control) on one side and yes/no caseness on the other. This reproduces Table 2."
+    },
+    {
+      "step": "3. Compare skewed severity scores between two groups",
+      "detail": "Use Mann-Whitney U for each continuous score in OCD vs controls. This is the Table 3 logic."
+    },
+    {
+      "step": "4. Split OCD into screen-positive and screen-negative",
+      "detail": "Use t-tests for continuous variables and chi-square for category/count variables. This matches Table 4."
+    },
+    {
+      "step": "5. Compare BIS total across three groups",
+      "detail": "Use one-way ANOVA with HC, OCD, and OCD+BA. Figure 1 shows means ± SD. The extracted text does not report full post-hoc details."
+    },
+    {
+      "step": "6. Run correlations",
+      "detail": "Pair BIS total with each behavioural score, excluding very rare behaviours. Remember: correlation is association, not cause."
+    }
+  ],
+  "mannWhitneyVsTtest": {
+    "thisStudy": "Mann-Whitney was used for OCD vs control severity because the score shapes were skewed (not bell-shaped).",
+    "tTestWouldNeed": "A t-test usually fits better when score shapes are fairly normal and group spread is reasonably similar.",
+    "ruleOfThumb": "The same paper can mix tools: Mann-Whitney for skewed comparisons and t-test where assumptions look acceptable."
+  }
+}

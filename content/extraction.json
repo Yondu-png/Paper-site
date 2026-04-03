@@ -1,0 +1,133 @@
+{
+  "abstract": {
+    "verbatimSummary": [
+      "Behavioural addictions (BAs) share phenomenological overlap and neuropsychological similarities with obsessive-compulsive disorder (OCD); however, the relationship remains understudied.",
+      "This study reports the prevalence of BAs in patients with OCD and healthy controls (HCs). It compares clinical characteristics including impulsivity traits among OCD subjects with and without BAs.",
+      "N = 150 OCD patients and 131 HCs assessed with structured instruments for: Internet / Sex / Pornography / Mobile phone / Kleptomania / Compulsive buying / Pyromania / Gambling / Food / Exercise. Impulsivity: BIS-11.",
+      "OCD had significantly higher prevalence of at least one co-occurring BA than HC: OCD 70%, HC 58%, p < 0.036.",
+      "OCD had significantly higher prevalence of Internet addiction (29.3% vs 3.1%), pornography addiction (12.7% vs 0%), sex addiction (10% vs 1.5%).",
+      "Mobile phone and food addiction were not significantly different by diagnostic criteria; OCD had significantly higher symptom intensity on severity scores for those domains.",
+      "OCD with BAs vs without: significantly more male, lower age at onset and at assessment; higher BIS total, motor, attentional subscales. No difference in symptom profile or OCD comorbidities.",
+      "Conclusion: co-occurrence of BAs in OCD is common; OCD+BA subgroup shows specific demographics and higher impulsivity."
+    ],
+    "numbers": [
+      { "item": "OCD n", "value": "150" },
+      { "item": "HC n", "value": "131" },
+      { "item": "≥1 BA prevalence OCD", "value": "70%" },
+      { "item": "≥1 BA prevalence HC", "value": "58%" },
+      { "item": "p ≥1 BA", "value": "< 0.036" },
+      { "item": "Internet addiction OCD vs HC", "value": "29.3% vs 3.1%" },
+      { "item": "Pornography addiction OCD vs HC", "value": "12.7% vs 0%" },
+      { "item": "Sex addiction OCD vs HC", "value": "10% vs 1.5%" }
+    ]
+  },
+  "introduction": {
+    "subsections": [
+      {
+        "title": "Conceptual background",
+        "points": [
+          "BAs: inability to control intense urges → persistent repetitive behaviour despite negative impacts (Kardefelt-Winther et al., 2017).",
+          "Overlap with OCD: recurrent thoughts/images, repetitive behaviour; BAs often ego-syntonic (pleasure/gratification/relief) vs ego-dystonic compulsions in OCD.",
+          "Impulsivity, decision-making, reward dysfunction noted in OCD + gambling (Grassi et al., 2020); habitual vs affective motivations in OCD vs alcohol use (Ferreira et al., 2021).",
+          "Cortico-striatal overlap hypothesized (Fontenelle et al., 2011)."
+        ]
+      },
+      {
+        "title": "Evidence gap",
+        "points": [
+          "Relationship OCD–BA understudied; clinically meaningful view needs systematic multi-BA assessment, not only single-BA or clinical impression studies.",
+          "Brakoulias et al. (2020) 6916 OCD across 13 countries: 8.7% problematic internet, 6.8% compulsive sexual behaviour, 6.4% compulsive buying, 4.1% gambling — mostly clinical diagnosis, limited instruments, subset of BAs.",
+          "OCD/OCS elevated in internet, compulsive buying, pathological gambling, compulsive sexual behaviours in various studies (cited).",
+          "OCD often compulsive end of spectrum; subgroup may have higher impulsivity (Kashyap et al., 2012). BAs linked to impulsivity → examine BIS in OCD.",
+          "Compare OCD with vs without BA on clinical characteristics."
+        ]
+      },
+      {
+        "title": "Aims and hypotheses (paper wording)",
+        "points": [
+          "Examine prevalence of BAs in OCD vs HC.",
+          "Compare socio-demographics, clinical features, impulsivity, mean comorbidities: OCD with vs without BA.",
+          "Hypothesis: OCD+BA distinctive clinically vs OCD without BA.",
+          "Hypothesis: impulsivity higher in OCD+BA vs OCD alone vs HC."
+        ]
+      }
+    ]
+  },
+  "methods": {
+    "2.1_participants": {
+      "design": "Cross-sectional survey.",
+      "setting": "Specialty OCD clinic, NIMHANS, Bengaluru, India; new registrations Sep 2017–Nov 2018; clinic day Tuesday.",
+      "inclusionOCD": "Adults 18–60; primary diagnosis OCD; newly registered at clinic.",
+      "exclusionOCD": "Comorbid bipolar, psychotic disorders, substance dependence (except nicotine), organic brain disorders, intellectual developmental disorder, pervasive developmental disorders.",
+      "recruitmentOCD": "320 new registrations invited; 38 not eligible; 112 refused; 150 completed (response rate 57.4%).",
+      "assessor": "First author; MD thesis; assessment duration ~1–1.5 h.",
+      "healthyControls": "Convenience sampling from community; matched for gender, age, years of education.",
+      "exclusionHC": "No lifetime Axis-I DSM-5 disorder (except nicotine dependence), no organic brain disorder, IDD, or PDD.",
+      "recruitmentHC": "181 approached; 131 completed all assessments.",
+      "incentives": "None."
+    },
+    "2.2_measures": {
+      "clinicalRoutine": [
+        "Socio-demographic checklist.",
+        "Structured OCD clinic proforma by PG trainees: clinical details, Y-BOCS (Goodman et al., 1989), Axis-I comorbidities MINI-6.",
+        "Senior consultants corroborated proforma.",
+        "All OCD patients on SSRIs at recommended dose range (Reddy et al., 2017)."
+      ],
+      "studySpecific": [
+        { "construct": "Impulsivity", "instrument": "BIS-11 (Patton et al. cited as JH et al., 1995 in PDF)", "notes": "30 items; attentional, motor, planning factors; self-report; no ADHD diagnosis made." },
+        { "construct": "Internet addiction", "instrument": "Young's IAT (Young & de Abreu, 2007)", "scoring": "20 items, Likert 0–5; <30 normal; 31–49 mild; 50–79 moderate; 80–100 severe." },
+        { "construct": "Mobile phone dependence", "instrument": "TMD brief (Choliz et al., 2016)", "cutoff": "≥22 dependence (validated in Indian population)." },
+        { "construct": "Sex addiction", "instrument": "SAST-Revised (Carnes et al., 2010)", "cutoff": "≥6 'yes' of 20." },
+        { "construct": "Pornography addiction", "instrument": "PAST (Bulkley, 2013)", "cutoff": "70 (paper: 'cut-off score of 70')." },
+        { "construct": "Compulsive buying", "instrument": "CBS (Faber & O'Guinn, 1992)", "notes": "2 items (second with 6 sub-questions); Likert 1–5; cut-off from scoring equation < -1.34." },
+        { "construct": "Pathological gambling", "instrument": "OASAS DSM-5 adapted 9-item yes/no", "cutoff": "≥4 yes = at-risk." },
+        { "construct": "Kleptomania", "instrument": "K-SAS (Grant & Kim, 2002)", "cutoff": ">11 serious concern; 11 items Likert 0–4 last week." },
+        { "construct": "Pyromania", "instrument": "Screening based on ICD-10 criteria (WHO, 1992)." },
+        { "construct": "Food / eating psychopathology screen", "instrument": "EAT-26 (Garner et al., 1982)", "cutoff": "≥20." },
+        { "construct": "Exercise dependence", "instrument": "EDS-21 (Hausenblas & Downs, 2002)", "cutoff": "Dependent if ≥3 DSM-IV substance dependence criteria met; Likert 1–6 past 3 months." }
+      ]
+    },
+    "2.3_statistical_analysis": {
+      "software": "SPSS version 21.",
+      "prevalence": "Lifetime prevalence of BA calculated for OCD and HC.",
+      "severityComparisonOCDvsHC": "Mann–Whitney for BA severity scores (non-normal distributions). Very low-prevalence BAs excluded from this analysis.",
+      "groupingOCD": "OCD with BA = crossed cut-off on any BA scale; without = none.",
+      "OCDsubgroupComparisons": "Chi-square and independent t-tests as appropriate for clinical profile, comorbidity, severity, impulsivity (including BIS subscales).",
+      "threeGroupBIS": "ANOVA for BIS-11 total: HC vs OCD vs OCD with BA.",
+      "correlations": "Whole sample: impulsivity vs each BA severity (continuous), excluding low-prevalence BAs.",
+      "alpha": "Two-tailed; p < 0.05."
+    },
+    "2.4_ethics": {
+      "approval": "Ethical Committee, Department of Psychiatry, NIMHANS, Bengaluru.",
+      "consent": "Written informed consent before assessment.",
+      "dutyOfCare": "Participants screening positive were psychoeducated and offered appropriate help."
+    }
+  },
+  "results": {
+    "narrativeNumbers": [
+      "150 OCD, 131 HC completed assessments; demographics comparable (Table 1).",
+      "≥1 BA: OCD n=105 (70%) vs HC n=76 (58%), p < 0.036.",
+      "Internet, pornography, sex prevalence differences Table 2.",
+      "Intensity (Mann–Whitney): internet, mobile, pornography, sex, food higher in OCD; compulsive buying p = 0.055 (Table 3).",
+      "OCD+BA vs OCD−BA: male 71.4% vs 51.1%; age onset 19.90 vs 26.69; age at assessment 28.41 vs 35.62; BIS total 73.73 vs 66.80; motor 23.08 vs 18.80; attentional 22.58 vs 19.96; planning NS; Y-BOCS, duration, family hx, comorbidity patterns NS (Table 4).",
+      "BIS total ANOVA three groups: HC 55.84±12.80, OCD 66.80±10.25, OCD+BA 73.73±12.27, p < 0.001 (Fig. 1).",
+      "Correlations: positive with internet, mobile, porn, sex, food BA scores; negative with compulsive buying (coefficients not in extracted text)."
+    ]
+  },
+  "discussion": {
+    "themes": [
+      "Structured multi-BA assessment: internet, porn, sex higher in OCD vs HC; mobile & food higher intensity though not always categorical difference; compulsive buying not different; rare: exercise, kleptomania, pyromania.",
+      "First comparison with HC matched age/sex/education (authors' claim).",
+      "Did not replicate higher gambling/compulsive buying in some prior work; prior NIMHANS study also low gambling/CB (Jaisoorya et al., 2003).",
+      "Conceptual/criteria limitations for BAs; internet overlap with OCD phenomenology — authors ensured internet cases involved urges/gratification not typical OCD distress.",
+      "OCD+BA: male, younger onset/assessment; not different on illness duration, severity, family hx, comorbidity rates — discussion of whether demographic risk is universal vs OCD-specific.",
+      "Impulsivity: higher in OCD than HC; higher in OCD+BA than OCD-only; motor & attentional BIS elevated in OCD+BA vs Abramovitch cognitive-impulsivity discussion.",
+      "Correlation pattern links impulsivity to most BA scores except negative with compulsive buying.",
+      "Clinical implication: screen BAs in OCD; poorer outcomes with comorbidity cited (Fineberg et al., 2013).",
+      "Limitations: cut-offs = risk not necessarily diagnosis; treatment-seeking sample; cross-sectional; nicotine not analyzed; sensitive topics → under-reporting possible."
+    ]
+  },
+  "conclusion": {
+    "text": "Co-occurrence of BAs in OCD not uncommon. OCD+BA more likely male, lower age at onset, lower age at assessment, higher impulsivity. Clinicians should explore BAs in OCD given rising prevalence."
+  }
+}

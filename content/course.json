@@ -1,0 +1,341 @@
+{
+  "sections": [
+    {
+      "id": "abstract",
+      "title": "Abstract",
+      "plainSummary": "This paper compares two groups using the same checklist tools: 150 people with OCD (obsessive-compulsive disorder) and 131 people without OCD. It checks ten behaviour areas (internet, phone, sex, pornography, shopping, etc.) and also checks impulsivity using BIS-11 (a self-report impulsivity score). Main finding: the OCD group more often crossed at least one risk cut-off line. The biggest yes/no gaps were in internet, pornography, and sex-related screens. Another key point: yes/no and severity are not the same story. In some areas, yes/no looked similar, but OCD still had higher severity scores. Inside OCD, people who crossed any behavioural cut-off were more often male, younger, and higher on impulsivity, while Y-BOCS (OCD severity score) did not separate much.",
+      "keyClaims": [
+        "Sample: 150 OCD and 131 healthy comparison participants; multiple validated screens plus BIS-11 impulsivity.",
+        "At least one behavioural addiction by cut-off: about 70% of OCD vs about 58% of controls, statistically significant (p < 0.036).",
+        "Internet, pornography, and sex screens showed clearly higher prevalence in OCD than controls.",
+        "OCD participants with any behavioural addiction: more male, earlier OCD onset, younger at assessment, higher BIS total and some subscales—without a significant Y-BOCS difference."
+      ],
+      "glossary": [
+        {
+          "term": "Behavioural addiction (BA)",
+          "definition": "Here it does not mean a formal diagnosis written in a chart. It means: on a given questionnaire, a person’s score crossed a published cut-off that the scale’s authors treat as “probably problematic” or high risk for that behaviour (internet, sex, buying, etc.).",
+          "example": "Someone might score in the “moderate/severe” band on the internet addiction test used in the paper, which would count as caseness for that table—even though only a clinician could say if they truly have an addiction disorder.",
+          "analogy": "Like a smoke alarm: it beeps when readings cross a threshold; you still investigate the room to see what is really going on."
+        },
+        {
+          "term": "Cut-off",
+          "definition": "A line on a numbered scale. Below the line, scores are treated as non-cases or low risk; at or above, the manual usually labels probable problem level. Cut-offs make tables easy to read (yes/no) but they hide shades of grey just below the line.",
+          "example": "The mobile phone brief screen used a score of 22+ as “dependence” in this study, following an Indian validation cited in the paper.",
+          "analogy": "Similar to a pass mark on a test: two people one point apart can land on different sides of “pass/fail” even if their real-life difficulty is similar."
+        },
+        {
+          "term": "BIS-11",
+          "definition": "Barratt Impulsiveness Scale, 11th version—a 30-item self-report questionnaire about everyday impulsive tendencies (blurting things out, trouble concentrating, acting on the spur of the moment). Higher totals mean more self-reported impulsivity.",
+          "example": "The paper compares BIS-11 total across three groups (healthy controls, all OCD, OCD with any behavioural addiction) and compares subscales between OCD subgroups.",
+          "analogy": "Not a brain scan; it is how people describe their own habits and impulses on a form—useful for research trends, not a verdict on someone’s character."
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Roughly how many people were in the OCD group and in the healthy comparison group?",
+          "a": "150 participants with OCD and 131 healthy controls completed the assessments—the numbers the abstract and tables use throughout."
+        },
+        {
+          "q": "Which three behavioural areas showed significantly higher yes/no caseness in OCD than in controls in this study?",
+          "a": "Internet addiction, pornography addiction, and sex addiction. Table 2 gives the exact percentages and chi-square statistics."
+        },
+        {
+          "q": "Did people with OCD plus a behavioural addiction differ from OCD-only people on total Y-BOCS (OCD symptom severity)?",
+          "a": "No—the difference was not statistically significant (Table 4 reports p = 0.265), so the split was not about “how severe the OCD was” on that scale."
+        }
+      ],
+      "presenter1min": "Frame it as a fair comparison: same questionnaires, two groups. OCD participants carried more behavioural-addiction screens overall, with eye-catching gaps online and around sex/pornography. Among those with OCD, the subgroup that also screened positive looked younger and more impulsive—a pattern worth naming for non-specialist audiences.",
+      "presenter5min": "Set up the question: repetitive behaviours show up in both OCD and behavioural addictions, but past studies often looked at one behaviour at a time. Methods: one clinic cohort, structured screens for many domains, plus impulsivity. Results: 70% vs 58% with ≥1 positive screen (p < 0.036); very large prevalence gaps for internet (29.3% vs 3.1%), pornography (12.7% vs 0%), sex (10% vs 1.5%). Severity (Table 3) adds nuance where prevalence did not separate groups. Within OCD, BA-positive patients were more often male, had earlier onset, were younger at assessment, and scored higher on impulsivity without differing on Y-BOCS or comorbidity counts—supporting impulsivity as a marker of a distinct subgroup, not “more OCD.”"
+    },
+    {
+      "id": "introduction",
+      "title": "Introduction",
+      "plainSummary": "The introduction asks a simple question: when behaviours repeat, are we looking at OCD patterns, addiction-like patterns, or both? Older studies were uneven: some checked only one behaviour, and some used different rules for who counts as a case. This study tries to fix that by using one structured approach across many behaviour types in one OCD group and one matched control group. Then it asks: inside OCD, do people with any positive behavioural screen look different in age, sex, impulsivity, and clinical profile?",
+      "keyClaims": [
+        "Gap: need a systematic, multi-behaviour assessment in OCD—not only hand-picked disorders or single-centre impressions.",
+        "Impulsivity is a plausible link because behavioural addictions and impulsivity often travel together, and not everyone with OCD shows the same impulsive profile.",
+        "Aims: compare prevalence and intensity to controls; then profile OCD-with-BA versus OCD-without-BA; hypothesis that the BA-positive subgroup is clinically distinct and more impulsive."
+      ],
+      "glossary": [
+        {
+          "term": "Ego-syntonic vs ego-dystonic",
+          "definition": "Roughly: does the behaviour feel “like me and what I want” (syntonic) or “like an alien force I wish would stop” (dystonic)? The paper uses this classic contrast to explain why some repetitive problems are discussed more like addictions and others more like OCD.",
+          "example": "Checking a lock twenty times from fear of harm may feel deeply unwanted; scrolling for hours for excitement or relief may feel more chosen in the moment—though both can cause harm.",
+          "analogy": "Homework you hate versus a video game you cannot put down: both take your evening, but the emotional “why this is happening” can differ."
+        },
+        {
+          "term": "Impulsive–compulsive spectrum",
+          "definition": "A conceptual map researchers use to place disorders along a line from more impulsive (quick, reward-driven) to more compulsive (rule-bound, anxiety-reducing). OCD is often discussed toward the compulsive end, but people vary.",
+          "example": "The authors suggest that a more impulsive slice of OCD might be the one that accumulates behavioural addiction screens.",
+          "analogy": "Like a mixer tap: many patients are not “all hot” or “all cold”; the study tries to see who leans toward the impulsive side on questionnaire scores."
+        }
+      ],
+      "quiz": [
+        {
+          "q": "What large multicentre study is cited for behavioural addiction rates in OCD, and what limitation do the authors flag?",
+          "a": "Brakoulias et al. (2020) across 13 countries—but many sites relied on clinical judgment without the same screening tools, and not every behavioural domain was covered uniformly."
+        },
+        {
+          "q": "Why measure impulsivity (BIS-11) alongside behavioural addiction screens?",
+          "a": "Because people who score high on addiction screens often report high impulsivity, and the authors wanted to see if an impulsivity-heavy subgroup appears inside OCD when BA screens are positive."
+        }
+      ],
+      "presenter1min": "Plain pitch: repetitive behaviours show up in OCD and in addictions, but the literature is patchy. This paper’s edge is breadth—many behaviours, same methods—plus a trait impulsivity measure to test a subgroup story.",
+      "presenter5min": "Story arc: overlap in repetition and urges; different emotional “flavour” often discussed in the literature; neuroscience hints at shared pathways. Prior work: big multinational snapshot vs single-behaviour studies. Problem: no clean, wide battery in OCD with matched controls. This study’s aims: prevalence and intensity, then compare OCD+BA vs OCD-only. Hypothesis: different demographics/clinical pattern and higher impulsivity in OCD+BA, including the three-group BIS comparison with healthy controls."
+    },
+    {
+      "id": "methods-participants",
+      "title": "Methods — Participants",
+      "plainSummary": "Participants were adults aged 18-60. The OCD group came from new registrations at a specialty OCD clinic in Bengaluru (Sep 2017 to Nov 2018). After exclusions and refusals, 150 completed. Healthy controls were community volunteers matched by sex, age, and education; 131 completed. Important context: this is a treatment-seeking clinic sample, not a random city sample, so findings should be read as strong for this setting but not automatically for all OCD populations.",
+      "keyClaims": [
+        "Treatment-seeking, newly registered OCD clinic cohort; assessments tied to thesis work with a single assessor.",
+        "Comparison group matched on gender, age, and years of education.",
+        "Among eligible invited OCD patients, 57.4% completed (150 of those who were in the final analytic sample after exclusions/refusals as reported)."
+      ],
+      "glossary": [
+        {
+          "term": "Cross-sectional",
+          "definition": "A single snapshot in time. The study can describe associations (“who tends to co-occur with what”) but cannot by itself prove what caused what or what happens next.",
+          "example": "If impulsivity and behavioural addiction screens rise together, we cannot tell from this design whether impulsivity led to behaviours, behaviours shaped self-report, or both reflect something else.",
+          "analogy": "A photograph of a beach tells you who is standing together; it does not tell you who invited whom to the trip."
+        },
+        {
+          "term": "Convenience sampling (healthy controls)",
+          "definition": "Volunteers who were available and willing, screened to meet criteria—not a random draw from the whole city or country. Efficient for clinics, but the comparison group may differ from the general population in ways you cannot see.",
+          "example": "Controls were community recruits willing to attend assessments and pass exclusion criteria; they were not selected by lottery from a census list.",
+          "analogy": "Like tasting soup from whoever brought a potluck dish: delicious and informative, but not guaranteed to represent every home cook in town."
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Which substance dependence was allowed without excluding the participant?",
+          "a": "Nicotine dependence was permitted; dependence on other substances was grounds for exclusion."
+        },
+        {
+          "q": "How many new OCD registrations occurred in the recruitment window, and how many people completed the study?",
+          "a": "320 new registrations; 150 people completed assessments after exclusions and refusals, as reported in the paper."
+        }
+      ],
+      "presenter1min": "Stress who is in the picture: specialty OCD service, urban India, careful exclusions, demographically matched controls. Numbers 150 vs 131 are solid for group comparisons but not automatically “everyone with OCD everywhere.”",
+      "presenter5min": "Generalizability: urban specialty clinic, SSRIs as routine care, exclusions that remove psychosis, bipolar disorder, and most substance use—so findings apply to a selected OCD phenotype. Controls underwent structured screening. Acknowledge refusal: 112 OCD patients did not participate; we do not know if they differed on severity or stigma-sensitive topics. No payment is ethically simple but may skew uptake."
+    },
+    {
+      "id": "methods-measures",
+      "title": "Methods — Measures",
+      "plainSummary": "The study used standard clinic assessments plus a wide set of behaviour screens. Core tools include Y-BOCS (clinician OCD severity score), MINI-6 (structured diagnosis interview), BIS-11 (impulsivity self-report), and ten behaviour-specific questionnaires (internet, phone, sex, pornography, buying, gambling, kleptomania, pyromania, eating, exercise). Each tool has a cut-off line for yes/no risk. The paper uses both views: yes/no caseness and raw severity scores. All OCD participants were on SSRI treatment, which is important when reading severity differences.",
+      "keyClaims": [
+        "Y-BOCS and MINI-6 came from standard clinic documentation with clinician corroboration.",
+        "Behavioural addiction caseness follows each instrument’s manual cut-off (see extraction.json in this project for thresholds).",
+        "All OCD patients were receiving SSRI treatment according to clinic guidelines."
+      ],
+      "glossary": [
+        {
+          "term": "Y-BOCS",
+          "definition": "Yale–Brown Obsessive Compulsive Scale: a clinician-administered interview that produces a 0–40 total score reflecting how time-consuming and distressing obsessions and compulsions are. Higher means more severe OCD symptoms by this measure.",
+          "example": "Table 4 compares Y-BOCS totals between OCD patients with versus without behavioural addiction screens; the paper reports no significant difference.",
+          "analogy": "A structured severity ruler for OCD that clinicians learn to use consistently—think “how loud is the OCD on a standardized dial,” not a personality test."
+        },
+        {
+          "term": "MINI-6",
+          "definition": "Mini International Neuropsychiatric Interview (version 6 in this setting): a short structured interview that maps onto common Axis I diagnoses so researchers can count comorbidities in a standardized way.",
+          "example": "Table 4 rows for depression, anxiety disorders, etc., come from this kind of structured checklist approach.",
+          "analogy": "A diagnostic flowchart interview: same branches for everyone, so counts are comparable across people."
+        },
+        {
+          "term": "IAT bands",
+          "definition": "Young’s Internet Addiction Test is scored 20–100 in the paper’s setup; the manual bands are: under 30 normal; 31–49 mild; 50–79 moderate; 80–100 severe. Those bands translate internet use problems into ordered levels.",
+          "example": "Prevalence and severity analyses for “internet addiction” in this study refer to this instrument’s totals and cut-offs.",
+          "analogy": "Like weather warnings: same thermometer, but the colour-coded bands tell you when forecasters start using words like “moderate” or “severe.”"
+        }
+      ],
+      "quiz": [
+        {
+          "q": "What TMD brief cut-off indicated mobile phone dependence in this study?",
+          "a": "A total score of 22 or higher, following the Indian validation cited in the paper."
+        },
+        {
+          "q": "On the SAST-R sex addiction screen, how many “yes” answers indicated probable caseness?",
+          "a": "Six or more “yes” responses out of 20 items."
+        }
+      ],
+      "presenter1min": "Emphasize transparency: every domain has a named scale and a published line for caseness, not a vague chart note. Continuous scores add the “how much” story next to the “yes/no” story.",
+      "presenter5min": "Walk the battery like a check-up panel: impulsivity trait plus multiple behaviour screens. Note cut-offs mean “elevated risk / probable case by scale rules,” not automatic DSM labels—exactly what the discussion cautions. Sensitive domains (sex, pornography, gambling) may be under-reported face-to-face. Medication context: everyone with OCD on SSRIs; group differences are on top of active treatment, which matters for how you phrase “severity.”"
+    },
+    {
+      "id": "methods-statistics",
+      "title": "Methods — Statistical analysis",
+      "plainSummary": "All analysis was done in SPSS 21. For yes/no prevalence, the paper used chi-square (count comparison). For severity scores between OCD and controls, it used Mann-Whitney U (rank comparison) because score shapes were skewed (not bell-shaped). Inside OCD, it split people into OCD+BA and OCD-BA and compared groups with chi-square (counts) and t-tests (average comparisons) where used in the paper. For BIS-11 across three groups (HC, OCD, OCD+BA), it used one-way ANOVA (three-group average test). It also ran correlations (move-together checks) between impulsivity and severity scores. Significance rule: p < 0.05, two-tailed.",
+      "keyClaims": [
+        "Software: IBM SPSS Statistics version 21.",
+        "Mann–Whitney U for skewed continuous behavioural severity between OCD and controls (Table 3).",
+        "Chi-square and t-tests for profiling OCD+BA versus OCD−BA (Table 4).",
+        "One-way ANOVA for three-group BIS-11 total; correlations for links between impulsivity and severity scales (with exclusions for low-prevalence domains)."
+      ],
+      "glossary": [
+        {
+          "term": "Mann–Whitney U",
+          "definition": "A non-parametric test for comparing two separate groups (here, OCD vs healthy controls) on a number that can be skewed or oddly shaped—questionnaire totals, counts of symptoms, and the like. Instead of focusing only on averages, it works with ranks: it asks whether values in one group tend to pile up higher than in the other. It does not require the “nice normal bell curve” assumption that a classic t-test leans on.",
+          "example": "Table 3 uses Mann–Whitney to compare how intense internet, phone, pornography, sex, food, and buying scores were in OCD versus controls, because the authors report the behavioural scores were not normally distributed.",
+          "analogy": "Imagine lining everyone up from lowest to highest score and giving them place numbers (1st, 2nd, 3rd…). The test checks whether one group’s place numbers tend to sit higher in the line than the other’s—without insisting the original scores look like a tidy bell curve."
+        },
+        {
+          "term": "Chi-square test of independence",
+          "definition": "A test for tables of counts. It compares whether the pattern of yes/no (or category labels) across one variable lines up with another variable more than you would expect if there were no relationship. Large discrepancy between observed counts and “expected if unrelated” counts yields a small p-value.",
+          "example": "Table 2 uses chi-square for each behavioural addiction: does the proportion screening positive differ between OCD and control columns?",
+          "analogy": "Like checking whether left-handedness and favourite sport are linked in a class roster: you compare actual tallies to what you would expect if handedness and sport were unrelated."
+        },
+        {
+          "term": "One-way ANOVA",
+          "definition": "Analysis of variance with one grouping factor. Here it asks: do the average BIS-11 totals differ across three independent groups at the same time? A significant result means at least one group mean stands apart, though the paper’s extracted text does not spell out every pairwise follow-up test.",
+          "example": "Figure 1 shows mean BIS totals (with variability bars) for healthy controls, OCD overall, and OCD with behavioural addiction; the omnibus test is reported as p < 0.001.",
+          "analogy": "Instead of three separate two-group photo finishes, one race with three lanes: ANOVA checks whether any lane’s average finish time is credibly different from the others before you zoom into pair-by-pair gaps."
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Why did the authors favour Mann–Whitney over an independent-samples t-test for Table 3?",
+          "a": "Because behavioural addiction severity scores were not normally distributed. Mann–Whitney compares groups using ranks and does not rely on the bell-curve / equal-variance story that textbook t-tests assume."
+        },
+        {
+          "q": "How was the OCD+BA subgroup defined?",
+          "a": "Any patient who exceeded the published cut-off on at least one of the behavioural addiction instruments was classified as OCD with behavioural addiction; everyone else fell into the OCD-without-BA group for Table 4."
+        },
+        {
+          "q": "What significance level and tail direction did the authors use?",
+          "a": "Two-tailed tests throughout, with p < 0.05 as the threshold for statistical significance."
+        }
+      ],
+      "presenter1min": "Soundbite the logic: wrong tool for skewed scores gives misleading p-values—hence Mann–Whitney for Table 3. Prevalence tables use chi-square; inner-OCD comparisons use t and chi-square as appropriate; three-group impulsivity uses ANOVA; correlations link trait scores to severity.",
+      "presenter5min": "SPSS storyboard: (1) notice skew → Mann–Whitney for OCD vs control intensities. (2) Crosstabs and chi-square for yes/no prevalence. (3) Split OCD by any positive screen → profile subgroups. (4) ANOVA on BIS across HC, OCD, OCD+BA. (5) Bivariate correlations with rare behaviours dropped. Caveats for careful audiences: post-hoc pairwise tests after ANOVA are not described in the extracted text; correlation type (Pearson vs Spearman) is not specified there; no formal power calculation is reported."
+    },
+    {
+      "id": "methods-ethics",
+      "title": "Methods — Ethics",
+      "plainSummary": "An institutional ethics committee at NIMHANS (Department of Psychiatry) approved the protocol before data collection. Each participant gave written informed consent after the study was explained. If questionnaires flagged a condition that needed follow-up, participants received psychoeducation and referral or clinical help as appropriate—so research participation was tied to real-world duty of care, not just data extraction.",
+      "keyClaims": [
+        "Ethical approval from the NIMHANS Department of Psychiatry ethics committee.",
+        "Written informed consent obtained before assessments.",
+        "Positive screens triggered clinical support pathways."
+      ],
+      "glossary": [],
+      "quiz": [
+        {
+          "q": "Which committee approved the study?",
+          "a": "The Ethical Committee of the Department of Psychiatry, NIMHANS, Bengaluru."
+        }
+      ],
+      "presenter1min": "Standard protections: committee review, documented consent, and a plan for helping people when screens came back high.",
+      "presenter5min": "Mention that ethics appear in Methods and again near the end of the article—useful for students learning where journals place IRB language. Sensitive topics paired with clinical safeguards rather than “thank you, goodbye.”"
+    },
+    {
+      "id": "results",
+      "title": "Results",
+      "plainSummary": "Results in plain words: Table 1 says the two main groups were similar in age, sex mix, and education. Table 2 gives the yes/no headline: at least one positive behavioural screen was about 70% in OCD vs 58% in controls (p < 0.036). Biggest gaps were internet, pornography, and sex screens. Table 3 asks \"how strong\" symptoms were: OCD scores were higher in internet, mobile phone, pornography, sex, and food; compulsive buying was close (p = 0.055) but above the usual 0.05 line. Table 4 compares subgroups inside OCD: OCD+BA was more often male, younger, and more impulsive, but not clearly higher on Y-BOCS. Figure 1 shows a clear step-up in BIS-11 from HC to OCD to OCD+BA (ANOVA p < 0.001).",
+      "keyClaims": [
+        "Primary prevalence and intensity findings match the abstract; Table 3 adds nuance where Table 2’s cut-offs looked flat.",
+        "Subgroup differences emphasize demographics and impulsivity, not higher Y-BOCS in the BA-positive group.",
+        "Figure 1 means ± SD: HC 55.84±12.80; OCD 66.80±10.25; OCD+BA 73.73±12.27."
+      ],
+      "glossary": [
+        {
+          "term": "Median; Q1–Q3",
+          "definition": "The median is the middle value when all scores are sorted. Q1 and Q3 are the 25th and 75th percentiles—together they sketch where the middle half of people fall. For skewed data, median plus quartiles often tell a clearer story than the mean alone.",
+          "example": "Table 3 lists both mean±SD and median (Q1–Q3) for behavioural scores because distributions were skewed; the Mann–Whitney p-values summarize group differences on those messy distributions.",
+          "analogy": "Mean is the average income in a room if Bill Gates walks in; median is what the person in the middle earns—quartiles show the spread of the “typical” half."
+        }
+      ],
+      "quiz": [
+        {
+          "q": "What was the p-value for compulsive buying severity when comparing OCD versus controls in Table 3?",
+          "a": "0.055—above the usual 0.05 cut-off, so not “significant” in the strict sense; often described as a trend warranting cautious interpretation."
+        },
+        {
+          "q": "Did illness duration differ between OCD+BA and OCD−BA?",
+          "a": "No meaningful statistical difference (Table 4: t = 0.172, p = 0.864), so the split was not about how long people had had OCD."
+        }
+      ],
+      "presenter1min": "Narrate tables in order: fair baseline, then prevalence story, then intensity story, then who inside OCD lights up on impulsivity. Figure 1 is the visual punchline for the gradient of impulsivity across groups.",
+      "presenter5min": "Table-by-table tour: 1 = comparability; 2 = chi-square headlines (quote big χ² values if your audience likes numbers); 3 = Mann–Whitney nuance—severity can differ when yes/no does not; 4 = subgroup profile without Y-BOCS separation. Flag Table 4 BIS attentional statistic vs p inconsistency noted in ambiguities.json. Mention missing correlation coefficients in extracted text for audiences who expect r and p for every association."
+    },
+    {
+      "id": "discussion",
+      "title": "Discussion",
+      "plainSummary": "The discussion says these screens appear more often in OCD, especially internet and sexual/pornography domains. The authors are careful: a questionnaire cut-off is a risk flag, not a final diagnosis. They also note overlap problems, such as internet use that may include OCD-style reassurance checking. The OCD+BA subgroup was younger, more often male, and more impulsive, but not clearly more severe on core OCD scales. Limits remain important: one clinic sample, one time point, and possible under-reporting of sensitive behaviours.",
+      "keyClaims": [
+        "Authors frame the work as among the first structured multi-behaviour comparisons with demographic-matched controls in this setting.",
+        "Clinical implication: ask about behavioural addictions in OCD care; consider impulsivity when formulation and planning support.",
+        "Causal language is avoided; generalizability limits are acknowledged."
+      ],
+      "glossary": [
+        {
+          "term": "Construct validity",
+          "definition": "Whether a questionnaire truly measures the concept on the label. For behavioural addictions, experts still argue how much each scale captures “addiction” versus habit, mood problem, or OCD overlap.",
+          "example": "The discussion notes that internet addiction screens can pick up OCD-like checking/reassurance online unless clinicians and items distinguish urge-driven gratification.",
+          "analogy": "Calling a kitchen thermometer “oven temperature” only works if it sits where heat is representative—otherwise you are measuring the wrong thing with the right gadget."
+        }
+      ],
+      "quiz": [
+        {
+          "q": "Why might “internet addiction” overlap confusingly with OCD symptoms?",
+          "a": "Because reassurance seeking and compulsive checking online can inflate internet-use scores; the authors state they applied criteria emphasizing gratification or urge-driven use to reduce misclassification."
+        },
+        {
+          "q": "Name two limitations the authors emphasize.",
+          "a": "Cross-sectional design (no causality); treatment-seeking sample; possible under-reporting of sensitive behaviours; cut-offs reflect risk screens rather than guaranteed diagnoses—any two of these capture their caution."
+        }
+      ],
+      "presenter1min": "Discussion connects dots for a mixed audience: theory (impulsivity, spectrum ideas), comparison to prior literature, honest measurement limits, and a practical “screen and formulate” message.",
+      "presenter5min": "Structure: confirm hypotheses except where compulsive buying was null at prevalence; explain non-replication of some older gambling/buying findings; unpack internet phenomenology; describe subgroup demographics; argue impulsivity mechanism with motor subscale emphasis; cite neuroscience cautiously; recommend screening in practice; balance strengths (broad battery, matched controls) against construct, medication, cultural, and design limits."
+    },
+    {
+      "id": "conclusion",
+      "title": "Conclusion",
+      "plainSummary": "Bottom line: in this OCD clinic sample, behavioural risk screens commonly co-occurred with OCD. The screen-positive subgroup tended to be younger, more often male, and higher in impulsivity. Practical message: ask about these behaviours in routine OCD care, and treat a positive screen as a starting point for fuller assessment.",
+      "keyClaims": [
+        "Bottom line aligned with abstract: co-occurrence is real on these measures; impulsivity marks one identifiable subgroup pattern.",
+        "Practice-facing reminder: ask about behavioural addictions in OCD assessments."
+      ],
+      "glossary": [],
+      "quiz": [
+        {
+          "q": "What is the one-sentence clinical message?",
+          "a": "Make space in OCD care to ask about behavioural addictions, especially as these concerns become more common in the wider world—and follow up positives with thoughtful assessment, not panic."
+        }
+      ],
+      "presenter1min": "Close with empathy: identify a younger, often male, higher-impulsivity subgroup who may need broader support than “only” classic OCD interventions.",
+      "presenter5min": "Recap evidence strengths (structured tools, matched controls), primary signals (internet/sex/pornography; impulsivity gradient), and where science should go next (longitudinal course, mechanisms, interventions that target both OCD cycles and reward-driven habits)."
+    },
+    {
+      "id": "appendix-stats-lab",
+      "title": "Stats lab — maps & tools",
+      "plainSummary": "This appendix is a simple map: each research question is paired with the test used and a plain reason why that test fits. It also gives an SPSS-style click path and a quick rule for when rank tests (Mann-Whitney) are safer than average tests (t-test).",
+      "keyClaims": [],
+      "glossary": [],
+      "quiz": [
+        {
+          "q": "Which table relied on non-parametric group comparison for severity scores between OCD and healthy controls?",
+          "a": "Table 3, using Mann–Whitney U on continuous behavioural scores because distributions were skewed."
+        },
+        {
+          "q": "Which test compares average BIS-11 total across three groups at once?",
+          "a": "One-way ANOVA, reported with p < 0.001 and illustrated in Figure 1."
+        }
+      ],
+      "presenter1min": "Slide-friendly map: chi-square for yes/no prevalence, Mann–Whitney for skewed severity between big groups, t-tests and chi-square inside OCD, ANOVA when three groups share one outcome.",
+      "presenter5min": "Demo style: point to each figure/table and name the question it answers; spend thirty seconds on why skew triggers Mann–Whitney; disclose reporting gaps (post-hocs, correlation coefficients) so audiences trust your transparency."
+    },
+    {
+      "id": "appendix-cheat-sheet",
+      "title": "Conference cheat sheet",
+      "plainSummary": "Quick reminder card for talks: sample size (150 vs 131), key p-values, key chi-square values, what was significant, and the main limitations in one breath. Use with Figure 1 and Table 2 as backup slides.",
+      "keyClaims": [
+        "≥1 BA: p = 0.036; internet χ² = 34.097; pornography χ² = 17.797; sex χ² = 8.833.",
+        "BIS ANOVA p < 0.001; BIS total t between OCD subgroups p = 0.001."
+      ],
+      "glossary": [],
+      "quiz": [],
+      "presenter1min": "Keep Table 2 and Figure 1 cued on hidden slides for numeric questions.",
+      "presenter5min": "Ten-minute arc: why the question matters → who was studied → prevalence (Table 2) → intensity (Table 3) → who inside OCD differs (Table 4 + Fig. 1) → honest limits → what clinicians might do differently Monday morning."
+    }
+  ]
+}

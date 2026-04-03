@@ -1,0 +1,45 @@
+{
+  "id": "table1",
+  "label": "Table 1",
+  "title": "Comparison of demographic characteristics of OCD patients and healthy controls [N = (150 patients; 131 controls)].",
+  "source": "Rai et al., 2022, Psychiatry Research Communications",
+  "columns": [
+    { "key": "characteristic", "header": "Characteristic", "role": "What is being compared (hover on other columns too)" },
+    { "key": "ocd", "header": "OCD N=150 n (%) or mean±SD", "role": "Value for the 150 OCD participants—percent for sex rows, mean±SD for age and education" },
+    { "key": "control", "header": "Control N=131 n (%) or mean±SD", "role": "Same measure for the 131 healthy comparison participants" },
+    { "key": "stat", "header": "χ² / t", "role": "Test statistic: chi-square for counts like gender, t-test for continuous rows like age" },
+    { "key": "p", "header": "p", "role": "p-value (probability such a gap could happen by chance); under 0.05 = authors treated it as statistically significant" }
+  ],
+  "footnote": "© Mean ± standard deviation (for Age and Years of Education). Gender rows show n (%).",
+  "cellGuide": "This table checks “did we accidentally compare apples to oranges?” Age, sex split, and education look similar when p-values are large—so later differences in behavioural screens are less likely to be simple demographic mismatch. Hover column headers for quick reminders of what each number means.",
+  "rows": [
+    {
+      "characteristic": "Age©",
+      "ocd": "30.57 ± 10.26",
+      "control": "31.92 ± 10.15",
+      "stat": "1.106",
+      "p": "0.270"
+    },
+    {
+      "characteristic": "Gender — Male",
+      "ocd": "98 (65.3)",
+      "control": "86 (65.6)",
+      "stat": "0.003",
+      "p": "0.956"
+    },
+    {
+      "characteristic": "Gender — Female",
+      "ocd": "52 (34.7)",
+      "control": "45 (34.4)",
+      "stat": "—",
+      "p": "—"
+    },
+    {
+      "characteristic": "Years of Education©",
+      "ocd": "15.75 ± 2.85",
+      "control": "14.92 ± 4.15",
+      "stat": "1.954",
+      "p": "0.052"
+    }
+  ]
+}

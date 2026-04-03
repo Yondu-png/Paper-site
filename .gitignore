@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build output
+web/dist/
+*.local
+
+# Logs & debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Vercel (local CLI state)
+.vercel
+
+# TypeScript
+*.tsbuildinfo

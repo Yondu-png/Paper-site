@@ -1,0 +1,26 @@
+{
+  "id": "table2",
+  "label": "Table 2",
+  "title": "Prevalence of behavioural addiction among OCD patients (n=150) and healthy controls (n=131).",
+  "source": "Rai et al., 2022, Psychiatry Research Communications",
+  "columns": [
+    { "key": "ba", "header": "Behavioural addiction", "role": "Each row is a different questionnaire domain; caseness uses that scale’s published cut-off" },
+    { "key": "ocd", "header": "OCD N (%)", "role": "How many of the 150 OCD participants crossed the cut-off; % is within the OCD column only" },
+    { "key": "control", "header": "Control N (%)", "role": "Same for the 131 healthy controls—percent is within the control column only" },
+    { "key": "chi2", "header": "χ²", "role": "Chi-square test statistic—bigger numbers (with enough people) mean a larger mismatch between columns than chance would usually produce" },
+    { "key": "p", "header": "p", "role": "If p is small (e.g. <0.05), the yes/no rates differ between groups more than we would expect if there were no real gap" }
+  ],
+  "cellGuide": "Read each percentage down its own column—that tells you how common a positive screen was inside that group. Chi-square then asks whether the two columns’ split looks meaningfully different overall. A large χ² with a tiny p (like internet here) is the statistical way of saying “these bars are not close.”",
+  "rows": [
+    { "ba": "Internet addiction", "ocd": "44 (29.3)", "control": "4 (3.1)", "chi2": "34.097", "p": "<0.001" },
+    { "ba": "Mobile phone dependence", "ocd": "89 (59.3)", "control": "70 (55.4)", "chi2": "0.990", "p": "0.320" },
+    { "ba": "Pornography addiction", "ocd": "19 (12.70)", "control": "0 (0.00)", "chi2": "17.797", "p": "<0.001" },
+    { "ba": "Sex addiction", "ocd": "15 (10.00)", "control": "2 (1.50)", "chi2": "8.833", "p": "0.003" },
+    { "ba": "Food addiction", "ocd": "11 (7.30)", "control": "11 (8.40)", "chi2": "0.110", "p": "0.741" },
+    { "ba": "Compulsive buying", "ocd": "10 (6.70)", "control": "6 (4.60)", "chi2": "0.567", "p": "0.451" },
+    { "ba": "Pathological gambling", "ocd": "1 (0.70)", "control": "0 (0.00)", "chi2": "0.876", "p": "0.349" },
+    { "ba": "Pyromania", "ocd": "1 (0.70)", "control": "0 (0.00)", "chi2": "0.876", "p": "0.349" },
+    { "ba": "Kleptomania", "ocd": "0 (0.00)", "control": "0 (0.00)", "chi2": "—", "p": "—" },
+    { "ba": "Exercise dependence", "ocd": "0 (0.00)", "control": "0 (0.00)", "chi2": "—", "p": "—" }
+  ]
+}

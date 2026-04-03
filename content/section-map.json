@@ -1,0 +1,28 @@
+{
+  "orderedSectionIds": [
+    "abstract",
+    "introduction",
+    "methods-participants",
+    "methods-measures",
+    "methods-statistics",
+    "methods-ethics",
+    "results",
+    "discussion",
+    "conclusion",
+    "appendix-stats-lab",
+    "appendix-cheat-sheet"
+  ],
+  "labels": {
+    "abstract": "00 ABSTRACT",
+    "introduction": "01 INTRO",
+    "methods-participants": "02 METHOD · PARTICIPANTS",
+    "methods-measures": "03 METHOD · MEASURES",
+    "methods-statistics": "04 METHOD · STATS",
+    "methods-ethics": "05 METHOD · ETHICS",
+    "results": "06 RESULTS",
+    "discussion": "07 DISCUSSION",
+    "conclusion": "08 CONCLUSION",
+    "appendix-stats-lab": "09 STATS LAB",
+    "appendix-cheat-sheet": "10 CHEAT SHEET"
+  }
+}

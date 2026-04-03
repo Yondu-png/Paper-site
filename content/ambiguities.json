@@ -1,0 +1,34 @@
+{
+  "notes": [
+    {
+      "id": "table4-bis-attentional",
+      "issue": "Table 4 lists the BIS attentional subscale comparison (OCD with behavioural addiction vs without) with test statistic 0.993 and p = 0.001. In typical samples, a t-value near 1.0 would not line up with such a tiny p-value, so the printed table may have a typo, a misaligned column, or a statistic that is not the usual two-sample t. This is a detail wonks will notice on slides.",
+      "action": "Before you quote that exact t-value on a poster, open the PDF in Psychiatry Research Communications or write the authors—treat the p-value with caution until verified."
+    },
+    {
+      "id": "correlation-magnitudes",
+      "issue": "The results text says impulsivity correlated positively with several behavioural severity scores and negatively with compulsive buying, but the extracted manuscript text does not include the actual correlation coefficients (r) or their p-values.",
+      "action": "If an assignment or talk needs exact r, check the full article or supplements; otherwise say “correlations were reported as significant in text” without inventing numbers."
+    },
+    {
+      "id": "anova-details",
+      "issue": "The three-group BIS comparison uses ANOVA with p < 0.001, but the extracted text does not show the F statistic, degrees of freedom, or which pairwise comparisons were run afterward.",
+      "action": "Present it as “one-way ANOVA, p < 0.001” unless you obtain fuller stats from the original publication."
+    },
+    {
+      "id": "power-analysis",
+      "issue": "The methods text available to this project does not describe a formal a priori power calculation or sample-size justification.",
+      "action": "Report the n and response rate exactly as written; do not fabricate “we had 80% power to detect…” statements."
+    },
+    {
+      "id": "data-cleaning",
+      "issue": "Beyond excluding very rare behaviours from some analyses, the paper does not spell out every rule for missing data, outliers, or imputation.",
+      "action": "Stick to what is explicitly stated; flag unknowns when teaching critical appraisal."
+    },
+    {
+      "id": "pdf-typo-healthy",
+      "issue": "Some PDF copies render “healthy controls” as “healthyxcontrols” when text is copied.",
+      "action": "Summaries in this course normalize the wording to “healthy controls” for readability."
+    }
+  ]
+}

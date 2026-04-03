@@ -1,0 +1,36 @@
+{
+  "id": "table4",
+  "label": "Table 4",
+  "title": "Comparison of OCD patients with and without behavioural addictions on clinical characteristics of OCD.",
+  "source": "Rai et al., 2022, Psychiatry Research Communications",
+  "footnote": "© Mean ± standard deviation. BIS = Barratt Impulsivity Scale. β BIS subscales (attentional, motor, planning). Psychiatric comorbidities and patterns use n (%). Generalized Anxiety Disorder row: p reported as '< 1.000' in paper.",
+  "columns": [
+    { "key": "characteristic", "header": "Characteristic", "role": "Clinical or demographic feature being compared inside the OCD sample only" },
+    { "key": "withBa", "header": "OCD with BA N=105 n (%) or mean±SD", "role": "105 patients who crossed ≥1 behavioural addiction cut-off" },
+    { "key": "withoutBa", "header": "OCD without BA N=45 n (%) or mean±SD", "role": "45 patients who did not cross any cut-off on those screens" },
+    { "key": "stat", "header": "χ² / t", "role": "Chi-square for yes/no style rows; t-test for numeric rows like age or scale scores" },
+    { "key": "p", "header": "p", "role": "Two-tailed p-value: is this difference larger than we would routinely expect by chance?" }
+  ],
+  "cellGuide": "Everyone here has OCD; the split is “also screened positive on any behavioural questionnaire” versus “screened negative on all.” The table shows whether those two patient flavours differ on age, sex, OCD severity (Y-BOCS), impulsivity (BIS), or comorbidity counts. Hover headers for reminders.",
+  "anomalies": [
+    "See content/ambiguities.json: BIS Attentional row statistic vs p may be inconsistent in the published table."
+  ],
+  "rows": [
+    { "characteristic": "Age of onset of OCD (years)©", "withBa": "19.90 (8.33)", "withoutBa": "26.69 (12.64)", "stat": "3.879", "p": "<0.001" },
+    { "characteristic": "Age at assessment (years)©", "withBa": "28.41 (8.58)", "withoutBa": "35.62 (12.06)", "stat": "4.153", "p": "<0.001" },
+    { "characteristic": "Gender — Male", "withBa": "75 (71.4)", "withoutBa": "23 (51.1)", "stat": "5.741", "p": "0.017" },
+    { "characteristic": "Duration of illness©", "withBa": "101.52 (77.72)", "withoutBa": "99.09 (83.94)", "stat": "0.172", "p": "0.864" },
+    { "characteristic": "Family history of OCD", "withBa": "20 (19.0)", "withoutBa": "10 (22.2)", "stat": "0.198", "p": "0.656" },
+    { "characteristic": "Y-BOCS total score©", "withBa": "24.04 (7.43)", "withoutBa": "25.49 (6.91)", "stat": "1.118", "p": "0.265" },
+    { "characteristic": "BIS total score©", "withBa": "73.73 (12.27)", "withoutBa": "66.80 (10.25)", "stat": "3.32", "p": "0.001" },
+    { "characteristic": "BIS attentional©β", "withBa": "22.58 (4.580)", "withoutBa": "19.96 (3.908)", "stat": "0.993", "p": "0.001" },
+    { "characteristic": "BIS motor©β", "withBa": "23.08 (4.801)", "withoutBa": "18.80 (3.678)", "stat": "3.418", "p": "0.000" },
+    { "characteristic": "BIS planning©β", "withBa": "28.51 (6.193)", "withoutBa": "28.24 (5.253)", "stat": "0.293", "p": "0.799" },
+    { "characteristic": "Psychiatric comorbidities (present)", "withBa": "46 (43.8)", "withoutBa": "21 (46.7)", "stat": "0.104", "p": "0.747" },
+    { "characteristic": "Depression", "withBa": "31 (29.5)", "withoutBa": "11 (24.4)", "stat": "0.403", "p": "0.335" },
+    { "characteristic": "Tics", "withBa": "2 (1.9)", "withoutBa": "2 (4.4)", "stat": "0.783", "p": "0.584" },
+    { "characteristic": "Generalized anxiety disorder", "withBa": "3 (2.9)", "withoutBa": "1 (2.2)", "stat": "0.49", "p": "< 1.000" },
+    { "characteristic": "Panic disorder", "withBa": "1 (1.0)", "withoutBa": "1 (2.2)", "stat": "0.386", "p": "0.511" },
+    { "characteristic": "Social phobia", "withBa": "6 (5.7)", "withoutBa": "2 (4.4)", "stat": "0.101", "p": "0.751" }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "figure1",
+  "label": "Figure 1",
+  "title": "Comparison of impulsivity scores between healthy controls (HC), OCD patients (OCD), and OCD with behavioural addiction (OCD_BA)",
+  "sourceCaption": "Rai et al., 2022 — caption states (p < 0.001) for group comparison.",
+  "reconstructionNote": "Reconstructed from paper text (means ± SD). Error bars show ±1 SD as reported; verify visual style against original figure.",
+  "analysisNote": "Paper: one-way ANOVA for BIS-11 total across three groups; F and post-hoc details not in extracted text.",
+  "yAxisLabel": "BIS-11 total score",
+  "xCategories": [
+    { "key": "HC", "label": "HC" },
+    { "key": "OCD", "label": "OCD" },
+    { "key": "OCD_BA", "label": "OCD_BA" }
+  ],
+  "series": [
+    { "group": "HC", "mean": 55.84, "sd": 12.8, "nReported": "HC group in text" },
+    { "group": "OCD", "mean": 66.8, "sd": 10.25, "nReported": "OCD without BA vs with BA split elsewhere; totals n=150 OCD" },
+    { "group": "OCD_BA", "mean": 73.73, "sd": 12.27, "nReported": "n=105 OCD with BA per Table 4" }
+  ],
+  "interpretation": "BIS-11 total increases from HC to OCD to OCD with co-occurring BA, with overall ANOVA p < 0.001. Supports hypothesis that impulsivity is highest in the OCD+BA subgroup and higher in OCD overall than controls."
+}

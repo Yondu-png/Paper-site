@@ -1,0 +1,29 @@
+{
+  "title": "How these tools differ (simple guide)",
+  "rows": [
+    {
+      "aspect": "What it measures",
+      "bis11": "Everyday impulsive habits (acting fast without thinking, attention slips, weak planning).",
+      "iat": "Problematic internet use (internet use that starts causing problems).",
+      "tmd": "Mobile phone dependence (phone use that feels hard to control).",
+      "eat26": "Food and eating risk signals (possible unhealthy eating pattern signs).",
+      "cbs": "Compulsive buying (strong shopping urges and loss of control)."
+    },
+    {
+      "aspect": "What participants do",
+      "bis11": "Answer 30 self-report questions; points are added into totals and parts.",
+      "iat": "Answer 20 questions scored 0-5; total score is placed in severity bands.",
+      "tmd": "Answer 12 questions; score >=22 counted as dependence in this study.",
+      "eat26": "Answer 26 questions; score >=20 counted as elevated concern.",
+      "cbs": "Answer core shopping questions plus follow-ups; score < -1.34 counted as positive in this setup."
+    },
+    {
+      "aspect": "How the paper used it",
+      "bis11": "Main impulsivity score: ANOVA (three-group average test) and t-tests inside OCD.",
+      "iat": "Used for both yes/no prevalence and severity score comparison.",
+      "tmd": "Yes/no prevalence was similar, but severity scores were higher in OCD (Mann-Whitney rank test).",
+      "eat26": "Yes/no prevalence looked similar, but severity scores were higher in OCD.",
+      "cbs": "Yes/no prevalence looked similar; severity difference was close (p = 0.055) but not below 0.05."
+    }
+  ]
+}

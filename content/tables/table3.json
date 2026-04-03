@@ -1,0 +1,52 @@
+{
+  "id": "table3",
+  "label": "Table 3",
+  "title": "Comparison of intensity of behavioural addictions between OCD patients and healthy controls.",
+  "source": "Rai et al., 2022, Psychiatry Research Communications",
+  "footnote": "a Excluded from analysis were the BAs with very low baseline prevalence. P_a_: Mann–Whitney U (two-tailed), p < 0.05. Scores are instrument totals/derived scores as per each measure.",
+  "columns": [
+    { "key": "ba", "header": "BA (scores)", "role": "Continuous severity from the named scale—not just pass/fail, but how high scores went" },
+    { "key": "ocd", "header": "OCD mean±SD (median; Q1–Q3)", "role": "Average ± spread, plus median and middle 50% range—helpful when a few extreme scores pull the mean" },
+    { "key": "control", "header": "Control mean±SD (median; Q1–Q3)", "role": "Same summary pattern for healthy controls" },
+    { "key": "p", "header": "P", "role": "Mann–Whitney U p-value: small p means one group’s scores tend to rank higher overall" }
+  ],
+  "cellGuide": "Table 2 asked yes/no by cut-off; this table asks “even if rates looked similar, was symptom intensity higher?” Because scores were skewed, the authors used Mann–Whitney U (rank-based) instead of a t-test. Median and quartiles tell you where the typical person sat; p tells you if the two groups’ overall score piles differ.",
+  "rows": [
+    {
+      "ba": "Internet addiction",
+      "ocd": "33.35 ± 25.63 (29; 10.00–54.25)",
+      "control": "20.36 ± 13.29 (21; 11–28)",
+      "p": "<0.001"
+    },
+    {
+      "ba": "Mobile phone dependence",
+      "ocd": "20.55 ± 13.06 (21; 11.75–29.00)",
+      "control": "17.64 ± 10.34 (19; 9.00–25.00)",
+      "p": "0.045"
+    },
+    {
+      "ba": "Pornography addiction",
+      "ocd": "15.99 ± 21.98 (2; 0.00–30.00)",
+      "control": "3.98 ± 8.03 (0; 0.00–4.00)",
+      "p": "<0.001"
+    },
+    {
+      "ba": "Sex addiction",
+      "ocd": "1.44 ± 2.88 (0; 0.00–1.00)",
+      "control": "0.58 ± 1.35 (0; 0.00–0.00)",
+      "p": "0.017"
+    },
+    {
+      "ba": "Food addiction",
+      "ocd": "5.42 ± 8.33 (2; 0.00–2.00)",
+      "control": "4.25 ± 8.18 (0; 0.00–0.00)",
+      "p": "<0.001"
+    },
+    {
+      "ba": "Compulsive buying",
+      "ocd": "2.19 ± 1.82 (3.34; 1.29–3.34)",
+      "control": "2.13 ± 1.48 (3.01; 1.50–3.34)",
+      "p": "0.055"
+    }
+  ]
+}
